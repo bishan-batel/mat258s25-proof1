@@ -1,0 +1,38 @@
+\question $\llet r \in \Q, \llet s \in \R\setminus\Q$, prove that $r+s \in \R\setminus\Q$
+
+\begin{proof}
+	Assume the the proposition $P_2$ to be false, $\forall r \in \Q, s \in \R\setminus\Q \,\ba{r+s \in \R\setminus\Q}$
+
+	\begin{gather*}
+		\llet r  = \frac{p}{q} \\
+		\llet r+s = \frac{t}{v} \\
+		\begin{split}
+			P_{\Q}            & \implies p \in \Z, q \in \Z\setminus\set{0}  \\
+			P_2 \wedge P_{\Q} & \implies  t \in \Z, v \in \Z\setminus\set{0}
+		\end{split}
+	\end{gather*}
+
+	\begin{align*}
+		r + s             & = \frac{t}{v}               \\
+		\frac{p}{q} + s   & = \frac{t}{v}               \\
+		\frac{vp}{q} + vs & = t                         \\
+		vp + vsq          & = tq                        \\
+		s                 & = \frac{tq-vp}{vq}          \\
+		                  & = \frac{tq + (-1)(vp) }{vq}
+	\end{align*}
+
+	\begin{align*}
+		\ba{q,v \in \Z \setminus \set{0} } \wedge P^{\times} & \implies vq \in \Z \setminus \set{0} \\
+		\ba{p,q\in \Z} \wedge P^{\times}                     & \implies \set{tq, vp} \subset \Z     \\
+		P^{+} \wedge P^{+}                                   & \implies tq+(-1)vp \in \Z            \\
+	\end{align*}
+	\begin{equation*}
+		\begin{split}
+			 &     \\[1ex]
+			\hline \\[-3ex]
+			\therefore x
+		\end{split}
+	\end{equation*}
+
+
+\end{proof}

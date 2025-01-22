@@ -1,0 +1,31 @@
+\question For any given $r, s \in \mathbb{Q}$, prove that $\pa{r+s} \in \mathbb Q$.
+
+\begin{proof}
+	\begin{gather*}
+		\llet r = \frac{p_r}{q_r}, s = \frac{p_s}{q_s} \\
+		\ba{r, s \in \Q} \implies \set{p_r, q_r, p_s, q_s} \subset \Z\\
+		0 \not\in \set{q_r, q_s}
+	\end{gather*}
+
+	\begin{align*}
+		r+s & =  \frac{p_r}{q_r} + \frac{p_s}{q_s}                \\
+		    & = \frac{p_r q_s}{q_r q_s} + \frac{p_s q_r}{q_s q_r} \\
+		    & = \frac{p_r q_s + p_s q_r}{q_r q_s}
+	\end{align*}
+	\begin{align*}
+		P^{\times}               & \implies  \set{p_r q_s, p_s q_r, q_r q_s} \subset \Z \\
+		P^{\times} \wedge P^+    & \implies \pa{ p_r q_s + p_s q_r } \in \Z             \\
+		0 \not\in \set{q_r, q_s} & \implies		q_r q_s \neq 0
+	\end{align*}
+
+	\begin{equation*}
+		\begin{split}
+			P_{\Q}                                                                        & \\
+			p_r q_s  +    p_s q_r  \in \Z                                                 & \\
+			q_r q_s  \in \pa{\Z \setminus \set{0} }                                       & \\[1ex]
+			\hline                                                                          \\[-3ex]
+			\therefore  \frac{p_r q_s + p_s q_r}{q_r q_s} \in \Q  \rightarrow	 r+s \in \Q &
+		\end{split}
+	\end{equation*}
+
+\end{proof}
