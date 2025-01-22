@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber main"] 1737523519.50501 "main.bcf" "main.bbl" "main" 1737525189.42405 0
-  "main.bcf" 1737525189.36491 108087 51f8655dfc7ed08e0d1265dcfd1a4da1 "pdflatex"
+["biber main"] 1737523519.50501 "main.bcf" "main.bbl" "main" 1737572472.48885 0
+  "main.bcf" 1737572472.33128 108087 51f8655dfc7ed08e0d1265dcfd1a4da1 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1737525188.83232 "main.tex" "main.pdf" "main" 1737525189.42434 0
+["pdflatex"] 1737572470.54847 "main.tex" "main.pdf" "main" 1737572472.48961 0
   "/nix/store/i2s49waishb1jvimnrskvf6q0pdpfx46-texlive-2024-env-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/nix/store/i2s49waishb1jvimnrskvf6q0pdpfx46-texlive-2024-env-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1 1004 54797486969f23fa377b128694d548df ""
   "/nix/store/i2s49waishb1jvimnrskvf6q0pdpfx46-texlive-2024-env-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -96,14 +96,14 @@
   "/nix/store/q45jzk9n5k55iq4j9hsl31cx1wyvsaqx-texlive-2024-env/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5475591 2baa146a61e09b7639a00a3ca5c8abb9 ""
   "/nix/store/q45jzk9n5k55iq4j9hsl31cx1wyvsaqx-texlive-2024-env/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3326163 553d74c2e501b9facb913ce2e42d6854 ""
   "/nix/store/q45jzk9n5k55iq4j9hsl31cx1wyvsaqx-texlive-2024-env/share/texmf-var/web2c/texmf.cnf" 1 43655 438be39e4e713836e42116fb447df180 ""
-  "main.aux" 1737525189.36291 703 37ffcf854212780338b694f27e3bff1e "pdflatex"
-  "main.bbl" 1737523520.29053 466 76d65a242ec496c9b4361af646ff12cb "biber main"
-  "main.run.xml" 1737525189.36491 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
-  "main.tex" 1737523622.03449 1115 1bff1802a0c7b9d2496e46c234c1b2b6 ""
-  "preamble.sty" 1737511938.97538 3103 d0294955b390d9e26eb7fe0825b37e15 ""
-  "proof1.tex" 1737519623.71025 1249 b9786bcc3ae15cd05083c4dbdc625d68 ""
-  "proof2.aux" 1737525189.36191 4971 f0c7ffc73a7ba1b50ca24286176d038b "pdflatex"
-  "proof2.tex" 1737525188.6799 1281 016a2c19a34e216637f53c4263748bfe ""
+  "main.aux" 1737572472.32728 703 37ffcf854212780338b694f27e3bff1e "pdflatex"
+  "main.bbl" 1737508659.92396 466 76d65a242ec496c9b4361af646ff12cb "biber main"
+  "main.run.xml" 1737572472.33328 2305 52095dfad395b381e9a32937e764a41c "pdflatex"
+  "main.tex" 1737572468.89501 1148 019ccbc68b14c3708589d70f24bcf8c6 ""
+  "preamble.sty" 1737570531.76794 3103 d0294955b390d9e26eb7fe0825b37e15 ""
+  "proof1.tex" 1737570531.76794 1249 b9786bcc3ae15cd05083c4dbdc625d68 ""
+  "proof2.aux" 1737572472.32528 4971 f0c7ffc73a7ba1b50ca24286176d038b "pdflatex"
+  "proof2.tex" 1737572413.76191 1398 37e473e6069c37bee9225f79b99deb27 ""
   (generated)
   "main.aux"
   "main.bcf"
