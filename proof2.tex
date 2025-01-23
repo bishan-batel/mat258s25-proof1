@@ -1,14 +1,14 @@
 \question $\llet r \in \Q, \llet s \in \R\setminus\Q$, prove that $r+s \in \R\setminus\Q$
 
 \begin{proof}
-	Assume the the proposition $P_2$ to be false, $\forall r \in \Q, s \in \R\setminus\Q \,\ba{r+s \in \R\setminus\Q}$
+	Assuming the the proposition $P_2$ to be false, $\forall \ba{r \in \Q, s \in \R\setminus\Q} : \ba{r+s \in \R\setminus\Q}$
 
 	\begin{gather*}
 		\llet r  = \frac{p}{q} \\
 		\llet r+s = \frac{t}{v} \\
 		\begin{split}
-			P_{\Q}            & \implies p \in \Z, q \in \Z\setminus\set{0}  \\
-			P_2 \wedge P_{\Q} & \implies  t \in \Z, v \in \Z\setminus\set{0}
+			r \in \Q                               & \implies p \in \Z, q \in \Z\setminus\set{0}  \\
+			\neg P_2 \wedge \pa{ \pa{r+s} \in \Q } & \implies  t \in \Z, v \in \Z\setminus\set{0}
 		\end{split}
 	\end{gather*}
 
@@ -18,16 +18,21 @@
 		\frac{vp}{q} + vs & = t                         \\
 		vp + vsq          & = tq                        \\
 		s                 & = \frac{tq-vp}{vq}          \\
-		                  & = \frac{tq + (-1)(vp) }{vq}
+		s                 & = \frac{tq + (-1)(vp) }{vq}
 	\end{align*}
 
-	\begin{align*}
-		\ba{q,v \in \Z \setminus \set{0} } \wedge P^{\times} & \implies vq \in \Z \setminus \set{0}   \\
-		\ba{p,q\in \Z} \wedge P^{\times}                     & \implies \set{tq, vp} \subset \Z       \\
-		P^{+} \wedge P^{+}                                   & \implies tq+(-1)vp \in \Z              \\
-		\therefore\,                                         & \frac{tq+(-1)vp}{vq} \in \R\setminus\Q
-		\\ \rightarrow\,& s \in \R\setminus\Q
-	\end{align*}
+	\begin{equation*}
+		\begin{split}
+			\ba{p,t\in \Z} \wedge P^{\times}                     & \implies {tq, vp} \in \Z             \\
+			\ba{v,q \in \Z \setminus \set{0} } \wedge P^{\times} & \implies vq \in \Z \setminus \set{0} \\
+			P^{+} \wedge P^{+}                                   & \implies tq+(-1)vp \in \Z            \\
+		\end{split}
+		\therefore\,                                          \pa{\frac{tq+(-1)vp}{vq}} \in \Q
+		\implies\,                                        s \not\in \R\setminus\Q
+	\end{equation*}
 
-	This provides a contradiction regarding $s\in\R\setminus\Q$ , as $\neg P_2 \implies s \in \Q$
+	Assuming $\neg P_2$ contradicts the definition of $s \in \R\setminus Q$, therefore the proposition $\neg P_2$ must be false, meaning $P_2$ is true.
+
+	$$ \llet s \in \R\setminus\Q, r\in \R$$
+	$$ \neg P_2 \implies s \not\in \R\setminus\Q \therefore P_1 \text{ is true.}$$
 \end{proof}
